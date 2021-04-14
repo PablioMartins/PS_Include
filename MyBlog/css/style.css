@@ -1,0 +1,136 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Avantgarde', 'TeX Gyre Adventor', 'URW Gothic L', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(49, 49, 49);
+}
+
+main {
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+
+}
+
+.BarraTopo {
+    background-color:rgb(20, 20, 20);
+    width: 100%;
+    height: 60px;
+}
+
+.Logo {
+    float: left;
+    padding: 10px;
+    width: 75%;
+}
+
+.Contatos {
+    float: right;
+    width: 20%;
+}
+
+.Contatos ul li {
+    padding: 15px;
+    display: inline-block;
+    float: left;   
+}
+
+.Menu {
+    background-color: whitesmoke;
+    width: 100%;
+    height: 80px;
+}
+
+.Itens ul {
+    margin: 5px;
+}
+
+.Itens ul li {
+    padding-top: 28px;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 45px;
+    display: inline-block;
+}
+
+.Itens ul li a {
+    color: rgb(155, 155, 155);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.Itens ul li a:hover{
+    color: black;
+}
+
+.Itens ul li:hover {
+    border-bottom: black solid 3px;
+
+}
+
+.Posts {
+    padding: 20px;
+    background-color: rgb(202, 200, 200);
+}
+
+.Posts h1{
+    text-align: center;
+}
+
+.notice {
+    padding: 20px;
+    margin: 20px;
+    border-top: black solid 2px;
+    border-bottom: black solid 2px;
+}
+
+.notice h1 {
+    text-align: justify;
+    font-size: 20px;
+}
+
+.notice h2 {
+    font-size: 15px;
+    text-align: right;
+    color: grey;
+}
+
+.notice p{
+    padding: 10px;
+    text-align: justify;
+}
+
+.rodape {
+    background-color:rgb(20, 20, 20);
+    width: 100%;
+    height: 100px;
+}
+
+.contatosRodape {
+    width: 50%;
+    float: right;
+    color: rgb(190, 190, 190);
+    padding-top: 10px;
+}
+
+.perfil{
+    background-color: rgb(202, 200, 200);
+    width: 100%;
+    height: 400px;
+}
+
+.fotoPerf {
+    margin: 50px;
+    float: left;
+}
+
+.textoPerf {
+    margin-top: 50px;
+    width: 50%;
+    float: left;
+}
